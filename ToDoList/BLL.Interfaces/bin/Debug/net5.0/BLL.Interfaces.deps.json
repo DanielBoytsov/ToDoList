@@ -1,0 +1,75 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "BLL.Interfaces/1.0.0": {
+        "dependencies": {
+          "DAL.Interfaces": "1.0.0",
+          "DAL.Services": "1.0.0",
+          "Entities": "1.0.0"
+        },
+        "runtime": {
+          "BLL.Interfaces.dll": {}
+        }
+      },
+      "DAL.Interfaces/1.0.0": {
+        "dependencies": {
+          "Entities": "1.0.0"
+        },
+        "runtime": {
+          "DAL.Interfaces.dll": {}
+        }
+      },
+      "DAL.Services/1.0.0": {
+        "dependencies": {
+          "DAL.Interfaces": "1.0.0",
+          "JsonSettings": "1.0.0"
+        },
+        "runtime": {
+          "DAL.Services.dll": {}
+        }
+      },
+      "Entities/1.0.0": {
+        "runtime": {
+          "Entities.dll": {}
+        }
+      },
+      "JsonSettings/1.0.0": {
+        "runtime": {
+          "JsonSettings.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BLL.Interfaces/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DAL.Interfaces/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DAL.Services/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Entities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "JsonSettings/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
